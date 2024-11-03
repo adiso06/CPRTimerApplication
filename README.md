@@ -82,17 +82,15 @@ The **CPR Timer Web App** is designed to assist healthcare providers during card
 5. **Follow the Algorithm**: Use the interactive algorithm steps to navigate the AHA-recommended pathways based on rhythm checks and response to treatment.
 6. **Reviewing the Log**: Scroll down to view the session log, including timestamps of key actions for easy review or handoff.
 
-## Future Improvements
-The CPR Timer Web App may add additional features in the future, such as:
-- Audio and haptic feedback for critical alerts
-- Customizable timer intervals
-- Exportable session summaries
-- Dark mode for low-light environments
-- User profiles for different protocols
+## ToDo
+- [ ] Prettier algorithm that's easier to read
+- [ ] Add reversible causes of cardiac arrest
+- [ ] When to consider ecmo
+- [ ] Exportable one paragraph summary of code.
+- [ ] Time of Death
+- [ ] FYIs about certain meds?
+- [ ] SHOCK BUTTON
+## To Fix 
+- [ ] Center Main Timer
+- [ ] Optimize for mobile use
 
-## License and Contributions
-This is an open-source project licensed under [insert license]. Contributions are welcome; please submit a pull request with any suggested improvements or reach out via the project’s GitHub repository.
-
----
-
-This README provides a comprehensive overview of the CPR Timer Web App’s features and usage, ensuring users can effectively leverage it during critical care scenarios.
