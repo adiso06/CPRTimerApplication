@@ -2,13 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>CPR: Code Blue & ACLS Support</title>
+
+    <!-- Meta Descriptions and Keywords -->
+    <meta name="description" content="Free, easy-to-use CPR timer application for residents, attendings, and healthcare providers in Code Blue and ACLS scenarios. Stay on track and monitor compressions effectively." />
+    <meta name="keywords" content="CPR Timer, Code Blue, ACLS, healthcare app, residents, attendings, CPR app free, medical timer" />
+
+    <!-- Open Graph Meta Tags for social sharing -->
+    <meta property="og:title" content="CPR Timer App for Code Blue & ACLS" />
+    <meta property="og:description" content="Optimize Code Blue and ACLS events with this free CPR timer app, ideal for residents and attendings." />
+    <meta property="og:image" content="https://yourdomain.com/path-to-image.jpg" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Free CPR Timer App for Code Blue & ACLS" />
+    <meta name="twitter:description" content="Optimize CPR with this free timer app for healthcare providers." />
+    <meta name="twitter:image" content="https://yourdomain.com/path-to-image.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <script type="module" crossorigin src="/CPRTimerApplication/assets/index-DgDH6WcJ.js"></script>
-    <link rel="stylesheet" crossorigin href="/CPRTimerApplication/assets/index-jLF1mW_J.css">
+    <link rel="stylesheet" crossorigin href="/CPRTimerApplication/assets/index-jLF1mW_J.css" />
+
+    <!-- JSON-LD Structured Data for medical/educational content -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalWebPage",
+        "mainEntity": {
+          "@type": "WebApplication",
+          "name": "CPR Timer",
+          "description": "A free CPR timer for healthcare professionals in Code Blue and ACLS settings.",
+          "applicationCategory": "Medical",
+          "audience": {
+            "@type": "MedicalAudience",
+            "medicalAudienceType": ["Physician", "Resident", "Attending"]
+          }
+        },
+        "about": "A CPR timer app designed for Code Blue and ACLS scenarios."
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <header>
+      <h1>CPR Timer App for Code Blue and ACLS Support</h1>
+    </header>
+    <main>
+      <div id="root"></div>
+    </main>
+    <footer>
+      <p>© 2023 CPR Timer App. Free resource for residents, attendings, and healthcare providers in ACLS scenarios.</p>
+    </footer>
   </body>
 </html>
